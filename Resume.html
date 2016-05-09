@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)file:///Volumes/DATA/Long%20Huynh%20Bao%20-%20Senior%20Hybris%20developer%20-%20VisualCV.htm -->
+<html class="bg-stripped animated fadeIn" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript" src="file/6387e82dbf"></script><script src="js/nr-918.min.js"></script><script type="text/javascript" async="" src="js/ga.js"></script><script async="" src="js/fbevents.js"></script><script async="" src="js/gtm.js"></script><script type="text/javascript" src="file/6387e82dbf(1)"></script><script src="js/nr-918.min(1).js"></script><script async="" src="js/fbevents(1).js"></script><script type="text/javascript" async="" src="js/ga(1).js"></script><script async="" src="js/gtm(1).js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"6387e82dbf","applicationID":"3081130","transactionName":"IV9dR0RcDghRRk4AEBEfQFtZRA==","queueTime":0,"applicationTime":292,"agentToken":null,"agent":"","ttGuid":"31dbb9c773a04393"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://www.visualcv.com/favicon.ico">
+
+  <title>Long Huynh Bao - Senior Hybris developer - VisualCV</title>
+  <!--<base href="https://www.visualcv.com/app/">--><!--<base href=".">--><base href=".">
+
+  <meta name="description" content="">
+  <meta name="author" content="VisualCV.com">
+  <meta name="robots" content="noarchive">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <script src="js/es5-shim.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="image" content="https://workstory.s3.amazonaws.com/users/960995/0_xy9RqXLS5Jy6EF_-wvogNu5mnqAomI_qw9oj5sJDBJAE0F8BHaoZNP5mbzpo0W8-avoMiYXmNprEjVgO2cbNi0kDiprojVlqScbJnXZSn6TijShgSPB4KHR51i_cv.jpeg">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="photo">
+  <meta name="twitter:site" content="@visualcv">
+  <meta name="twitter:image" content="https://workstory.s3.amazonaws.com/users/960995/0_xy9RqXLS5Jy6EF_-wvogNu5mnqAomI_qw9oj5sJDBJAE0F8BHaoZNP5mbzpo0W8-avoMiYXmNprEjVgO2cbNi0kDiprojVlqScbJnXZSn6TijShgSPB4KHR51i_cv.jpeg">
+  <meta name="twitter:url" content="https://www.visualcv.com">
+
+  <!-- Open Graph data -->
+  <meta property="og:image" content="https://workstory.s3.amazonaws.com/users/960995/0_xy9RqXLS5Jy6EF_-wvogNu5mnqAomI_qw9oj5sJDBJAE0F8BHaoZNP5mbzpo0W8-avoMiYXmNprEjVgO2cbNi0kDiprojVlqScbJnXZSn6TijShgSPB4KHR51i_cv.jpeg">
+
+  <!-- Google Tag Manager -->
+<noscript>&amp;lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-WKRGZV"
+                  height="0" width="0" style="display:none;visibility:hidden"&amp;gt;&amp;lt;/iframe&amp;gt;</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WKRGZV');</script>
+<!-- End Google Tag Manager -->
+
+  <link rel="stylesheet" type="text/css" href="css/visualcv.css">
+</head>
+<body data-cv-id="1142079" class="cv-viewer">
+
+  
+
+  <style type="text/css">.css-crop {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background-repeat: no-repeat;
+}
+.css-crop.bg-cover {
+  background-size: cover;
+  /*-ms-behavior: url("/styles/backgroundsize.min.htc"); doesn't work on IE8-9...*/
+  background-position: center;
+}
+.css-crop.bg-contain {
+  background-size: contain;
+  background-position: center;
+}
+.clear-margin {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: normal;
+  src: url('fonts/Open-Sans-300/Open-Sans-300.eot');
+  src: url('fonts/Open-Sans-300/Open-Sans-300.eot?#iefix') format('embedded-opentype'), local('Open Sans Light'), local('Open-Sans-300'), url('fonts/Open-Sans-300/Open-Sans-300.woff2') format('woff2'), url('fonts/Open-Sans-300/Open-Sans-300.woff') format('woff'), url('fonts/Open-Sans-300/Open-Sans-300.ttf') format('truetype'), url('fonts/Open-Sans-300/Open-Sans-300.svg#OpenSans') format('svg');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url('fonts/Open-Sans-600/Open-Sans-600.eot');
+  src: url('fonts/Open-Sans-600/Open-Sans-600.eot?#iefix') format('embedded-opentype'), local('Open Sans Semibold'), local('Open-Sans-600'), url('fonts/Open-Sans-600/Open-Sans-600.woff2') format('woff2'), url('fonts/Open-Sans-600/Open-Sans-600.woff') format('woff'), url('fonts/Open-Sans-600/Open-Sans-600.ttf') format('truetype'), url('fonts/Open-Sans-600/Open-Sans-600.svg#OpenSans') format('svg');
+}
+.full-width {
+  width: 100%;
+}
+.half-width {
+  width: 50%;
+}
+.clickable {
+  cursor: pointer;
+}
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block !important;
+}
+.nomargin {
+  margin: 0px !important;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.centered {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.first {
+  margin-top: 0px !important;
+}
+.last {
+  margin-bottom: 0px !important;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+.mejs-overlay-button {
+  display: none;
+}
+[data-id=new] [data-field=title] {
+  display: none;
+}
+.cv-viewer p {
+  min-height: 1em;
+}
+.cv-viewer .vcv-header {
+  margin: 30px auto;
+  max-width: 1020px;
+  position: relative;
+}
+.cv-viewer .vcv-header #social-share {
+  text-align: right;
+  position: absolute;
+  left: -80px;
+  top: 80px;
+  z-index: 1050;
+  opacity: 0;
+}
+.cv-viewer .vcv-header #social-share .share-button {
+  min-height: 30px;
+}
+.cv-viewer .vcv-header #social-share .share-button.subtle {
+  opacity: 0.75;
+}
+.cv-viewer .vcv-header .banner-top {
+  padding-left: 90px;
+  position: relative;
+  margin-top: -10px;
+  margin-bottom: -30px;
+  z-index: 0;
+  opacity: 0.5;
+  display: inline-block;
+}
+.cv-viewer .vcv-header .banner-top:hover {
+  opacity: 0.8;
+  -webkit-transition-property: transform opacity;
+  -moz-transition-property: transform opacity;
+  transition-property: transform opacity;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.cv-viewer .vcv-logo {
+  height: 40px;
+  display: block;
+}
+.cv-viewer .cv-container article .empty {
+  display: none !important;
+}
+.cv-viewer footer.vcv-footer {
+  margin-top: 100px;
+  color: #ccc;
+  text-align: center;
+}
+.cv-viewer footer .powered-by {
+  margin-top: 0px;
+}
+.cv-viewer footer .updated-at {
+  opacity: 0.3;
+}
+.cv-fullscreen {
+  position: relative;
+}
+.cv-fullscreen .powered-by a {
+  color: white;
+}
+.cv-fullscreen .vcv-header {
+  display: none;
+}
+.cv-fullscreen .vcv-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  margin-top: 50px;
+}
+.cv-fullscreen .vcv-footer .updated-at {
+  display: block;
+  margin-bottom: 1em;
+  opacity: 0.75;
+}
+.editor-visible {
+  display: none;
+}
+.cv-editor .cv-container {
+  margin: 0px auto 100px auto;
+}
+.cv-editor .cv-container .editor-visible {
+  display: block;
+}
+.cv-container {
+  display: block;
+  margin: 0px auto 10px auto;
+  min-height: 500px;
+  padding: 50px 6.5%;
+  max-width: 1020px;
+  background: white;
+  border-radius: 1px;
+  z-index: 10;
+  -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.cv-container .nowrap-list li {
+  white-space: nowrap;
+}
+.cv-container section {
+  position: relative;
+  word-wrap: break-word;
+}
+.cv-container article h4 {
+  overflow: auto;
+}
+.cv-container article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.cv-container .main section:first-child .edit-section .fa-arrow-up,
+.cv-container .cv-content section:first-child .edit-section .fa-arrow-up {
+  display: none;
+}
+.cv-container .main section:last-of-type .edit-section .fa-arrow-down,
+.cv-container .cv-content section:last-of-type .edit-section .fa-arrow-down {
+  display: none;
+}
+.cv-container #profile .edit-section {
+  display: none;
+}
+.cv-container #profile + section .edit-btn .fa-arrow-up {
+  display: none;
+}
+.cv-container #references .date-range {
+  display: none !important;
+}
+.cv-container #references .article-body {
+  width: 100%;
+}
+.cv-container svg {
+  overflow: visible;
+}
+.cv-container .morris-hover {
+  display: none !important;
+}
+.cv-container input[type=month] {
+  position: relative;
+  border: none;
+  max-width: 100%;
+  content: attr(placeholder);
+  display: inline-block;
+}
+.cv-container input[type=month]:before {
+  content: attr(placeholder);
+  position: absolute;
+}
+.cv-container .gallery .asset-thumb {
+  display: block;
+}
+.cv-container .btn {
+  margin-bottom: 15px;
+}
+.cv-container .btn i.subtle {
+  opacity: 0.2;
+}
+.cv-container .btn i {
+  opacity: 0.5;
+}
+.cv-container .btn.btn-glass {
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+}
+.cv-container a[href] {
+  color: #428bca;
+}
+.cv-container a[href] [data-bind=organization] {
+  color: #428bca;
+}
+.cv-container [data-bind=end_date]:before {
+  content: ' - ';
+}
+.cv-container .add-section {
+  max-width: 850px;
+  margin: 0px auto;
+}
+.cv-container .cv-content:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.cv-container .cv-content .user-thumb {
+  display: none;
+}
+.cv-container .cv-content .user-thumb.visible {
+  display: inherit;
+}
+.cv-container .asset-thumb {
+  position: relative;
+  cursor: pointer;
+  display: block;
+}
+.cv-container .asset-thumb .asset-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  z-index: 100;
+  opacity: 0.5;
+}
+.cv-container .asset-thumb .asset-overlay:hover {
+  opacity: 0.75;
+}
+.cv-container .asset-thumb .asset-overlay.youtube {
+  background-image: url("/images/icons/play.png");
+}
+.cv-container .asset-thumb .asset-overlay img {
+  page-break-inside: avoid;
+}
+.cv-container .asset label.ellipsis > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+@media (max-width: 992px) {
+  #social-share {
+    display: none;
+  }
+  .vcv-header a {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .vcv-header .vcv-logo {
+    display: inline;
+  }
+  .vcv-header .btn {
+    width: 100%;
+  }
+}
+.pdf .cv-container .chart-container {
+  width: 850px;
+}
+.pdf .cv-container .cv-content {
+  padding: 0px;
+}
+.pdf .cv-container .portfolio .css-crop {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.pdf .cv-container .user-thumb {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.pdf body,
+.embed body {
+  background: white !important;
+}
+.pdf .container,
+.embed .container {
+  padding: 0px;
+  margin: 0px auto;
+  width: 100%;
+}
+.pdf .cv-container,
+.embed .cv-container {
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+  max-width: 100% !important;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.pdf .cv-container section:last-of-type,
+.embed .cv-container section:last-of-type,
+.pdf .cv-container section:last-of-type article:last-of-type,
+.embed .cv-container section:last-of-type article:last-of-type,
+.pdf .cv-container section:last-of-type article:last-of-type,
+.embed .cv-container section:last-of-type article:last-of-type,
+.pdf .cv-container p:last-of-type,
+.embed .cv-container p:last-of-type,
+.pdf .cv-container .content-container,
+.embed .cv-container .content-container,
+.pdf .cv-container .cv-content,
+.embed .cv-container .cv-content {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+.pdf .vcv-header,
+.embed .vcv-header,
+.pdf .vcv-footer,
+.embed .vcv-footer {
+  display: none;
+}
+.pdf header,
+.embed header,
+.pdf .header-text,
+.embed .header-text {
+  page-break-after: avoid;
+  page-break-inside: avoid;
+}
+.pdf .no-page-break,
+.embed .no-page-break,
+.pdf .css-crop,
+.embed .css-crop,
+.pdf pre,
+.embed pre,
+.pdf blockquote,
+.embed blockquote,
+.pdf tr,
+.embed tr,
+.pdf img,
+.embed img,
+.pdf svg,
+.embed svg,
+.pdf .chart-graph,
+.embed .chart-graph,
+.pdf .chart-container,
+.embed .chart-container,
+.pdf .asset,
+.embed .asset {
+  page-break-inside: avoid;
+}
+.pdf .no-page-break p,
+.embed .no-page-break p {
+  page-break-inside: avoid;
+}
+.pdf thead,
+.embed thead {
+  display: table-header-group;
+}
+.pdf p,
+.embed p {
+  orphans: 4;
+  widows: 4;
+}
+@page {
+  size: A4 portrait;
+}
+.cv-container {
+  font-family: "Source Sans Pro", "Open Sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 0px;
+  color: black;
+}
+.cv-container .cv-content {
+  padding: 4em 8.5%;
+}
+.cv-container h1,
+.cv-container h2,
+.cv-container h3,
+.cv-container h4 {
+  margin-top: 0px;
+  margin-bottom: 0.25em;
+}
+.cv-container h2 {
+  overflow: auto;
+}
+.cv-container h4 {
+  font-size: 110%;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+.cv-container h5,
+.cv-container h6 {
+  font-size: 100%;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+.cv-container h1 {
+  color: #64B1F2;
+  font-size: 250%;
+}
+.cv-container h2 {
+  font-size: 125%;
+  font-weight: 200;
+}
+.cv-container h3 {
+  font-size: 150%;
+  font-weight: 400;
+  color: #64B1F2;
+}
+.cv-container h4,
+.cv-container strong,
+.cv-container label {
+  font-weight: 400;
+}
+.cv-container p {
+  margin-bottom: 0.6em;
+}
+.cv-container section {
+  margin-top: 1.5em;
+}
+.cv-container section .date-range {
+  text-align: center;
+  font-weight: normal;
+}
+.cv-container .col-sm-9 .glyphicon {
+  font-size: 85%;
+  width: 25px;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 2px;
+}
+.cv-container .vcard {
+  padding-bottom: 1em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.cv-container .vcard .user-thumb {
+  float: left;
+  width: 115px;
+  padding: 4px;
+}
+.cv-container .vcard .user-thumb .css-crop {
+  padding-bottom: 100%;
+}
+.cv-container .vcard article.profile {
+  overflow: visible;
+}
+.cv-container .vcard .user-title {
+  display: block;
+  overflow: hidden;
+  padding-right: 10px;
+}
+.cv-container .vcard .user-contact {
+  float: right;
+  padding-left: 10px;
+  list-style: none;
+  padding-top: 0.25em;
+  border-left: 1px solid #dedede;
+  margin: 0px;
+  width: auto;
+}
+.cv-container .vcard .user-contact i {
+  text-align: center;
+  width: 1.35em;
+  color: #cccccc;
+}
+.cv-container .vcard .user-contact li {
+  font-size: 90%;
+  margin-bottom: 0.25em;
+  overflow: visible;
+  white-space: nowrap;
+}
+.cv-container .vcard .user-contact li:before {
+  font-family: FontAwesome;
+  opacity: 0.25;
+  font-size: 100%;
+  margin-right: 0.25em;
+  display: inline-block;
+  text-align: center;
+  width: 1.35em;
+}
+.cv-container .vcard .user-contact li.locality:before {
+  content: "\f041";
+}
+.cv-container .vcard .user-contact li.phone:before {
+  content: "\f095";
+}
+.cv-container .vcard .user-contact li.email:before {
+  content: "\f003";
+}
+.cv-container .vcard .user-links li {
+  overflow: visible;
+  white-space: nowrap;
+  display: block;
+}
+@media (max-width: 768px) {
+  .cv-container .vcard {
+    text-align: center;
+  }
+  .cv-container .vcard .user-thumb {
+    min-width: 50%;
+    max-width: 75%;
+    display: block;
+    float: none !important;
+    margin: 15px auto !important;
+  }
+  .cv-container .vcard .user-title {
+    float: none;
+  }
+  .cv-container .vcard .user-contact {
+    width: 100%;
+    float: none !important;
+    border-left: none;
+  }
+  .cv-container .vcard .user-contact li {
+    margin: 0px 5px;
+    display: inline-block;
+  }
+}
+.cv-container .vcard {
+  border-bottom: 1px solid #dedede;
+}
+.cv-container .vcard .col-sm-2 {
+  padding-right: 0px;
+}
+.cv-container .vcard .user-thumb {
+  width: 5em;
+  float: right;
+  margin-left: 1em;
+  border: 1px solid #64B1F2;
+  border-radius: 100%;
+  box-shadow: 1px 1px 3px 0px #cccccc;
+}
+.cv-container .vcard .user-thumb .css-crop {
+  border-radius: 100%;
+}
+.cv-container #summary header {
+  display: none;
+}
+.cv-container #summary article {
+  text-align: center;
+  border-bottom: 1px solid #dedede;
+  padding: 0em 1.5em 0.75em 1.5em;
+  font-size: 120%;
+  font-weight: 200;
+}
+.cv-container #summary article .header-text {
+  display: none;
+}
+.cv-container #references .ribbon,
+.cv-container .chart .ribbon {
+  display: none;
+}
+.cv-container section {
+  clear: both;
+}
+.cv-container section .header-text {
+  margin-left: 28%;
+}
+.cv-container section .article-headings {
+  float: left;
+  width: 25%;
+  margin-right: 3%;
+}
+.cv-container section .article-body {
+  padding-left: 28%;
+}
+.cv-container section.profile {
+  margin-top: 0px;
+}
+.cv-container section.strengths {
+  padding-left: 28%;
+}
+.cv-container section.strengths .article-body,
+.cv-container section.strengths .header-text {
+  padding-left: initial;
+  margin-left: initial;
+}
+.cv-container section.strengths article {
+  width: 48%;
+  float: left;
+}
+.cv-container section.strengths article:nth-child(odd) {
+  margin-right: 4%;
+}
+.cv-container .ribbon {
+  position: relative;
+  border: 1px solid #64B1F2;
+  color: #64B1F2;
+  border-radius: 3px 1px 1px 0px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 1px 1px 3px 0px #cccccc;
+}
+.cv-container .ribbon a {
+  color: #64B1F2;
+}
+.cv-container .ribbon h4 {
+  margin: 0px;
+}
+.cv-container .ribbon:before {
+  content: "";
+  left: -2px;
+  bottom: -0.5em;
+  border-width: 0.5em 0 0 0.75em;
+  border-color: #64B1F2 transparent transparent transparent;
+  position: absolute;
+  display: block;
+  border-style: solid;
+}
+.cv-container .portfolio .asset-row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.cv-container .portfolio .asset {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.cv-container .portfolio .asset .asset-description {
+  display: none;
+}
+.cv-container .portfolio label {
+  min-height: 1.5em;
+}
+.cv-container .portfolio .css-crop {
+  width: 100%;
+  padding-bottom: 75%;
+  border: 2px solid #64B1F2;
+  border-radius: 0px 25px 0px 25px;
+  box-shadow: 1px 1px 3px 0px #cccccc;
+}
+.cv-container .portfolio a label {
+  cursor: pointer;
+}
+.cv-container .competency .competency-bar {
+  margin: 0.5em 0px 0.75em;
+  width: 100%;
+  background-color: #dedede;
+  border-radius: 2px;
+  height: 8px;
+  -webkit-transform: skewX(-45deg);
+  -ms-transform: skewX(-45deg);
+  -moz-transform-origin: skewX(-45deg);
+  -o-transform-origin: skewX(-45deg);
+  transform: skewX(-45deg);
+}
+.cv-container .competency .competency-level {
+  background-color: #64B1F2;
+  border-radius: 2px;
+  height: 100%;
+}
+.cv-container .competency .competency-bar {
+  margin-top: 6px;
+  width: 100%;
+  background-color: #dedede;
+  border-radius: 3px;
+  height: 6px;
+  transform: none;
+}
+.cv-container .competency .competency-level {
+  background-color: #64B1F2;
+  border-radius: 3px;
+  height: 6px;
+}
+.cv-container .competency:nth-child(2n+1) {
+  clear: both;
+}
+.cv-container .edit-new {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.cv-container .skills form {
+  width: 100%;
+  float: left;
+}
+.cv-container [data-id=new] h3 {
+  display: none;
+}
+@media (max-width: 768px) {
+  .cv-container section .date-range {
+    text-align: left;
+    color: #cccccc;
+  }
+  .cv-container section {
+    padding-left: initial !important;
+  }
+  .cv-container section .article-body {
+    padding-left: initial;
+  }
+  .cv-container section .header-text {
+    margin-left: initial;
+  }
+  .cv-container article .article-headings,
+  .cv-container article .article-body {
+    width: 100% !important;
+  }
+}
+.pdf .cv-container .cv-content {
+  padding: 0px;
+}
+.pdf .cv-container .chart-container {
+  width: 700px !important;
+}
+</style><div><style type="text/css"></style><div class="cv-container animated fadeIn "><div class="cv-content single-column"><section data-bind="sections" id="profile" class="profile no-page-break"><article class="vcard" data-bind="content"><ul class="user-contact"><li class="adr locality" data-bind="location"><span class="undefined needsclick" contenteditable="false" data-placeholder="Location">Vietnam, VN 34</span></li><li class="phone" data-bind="phone"><span class="undefined needsclick" contenteditable="false" data-placeholder="Phone">84 122 807 0600</span></li><li class="email" data-bind="email"><span class="undefined needsclick" contenteditable="false" data-placeholder="Email">huynhbaolong@mail.com</span></li><ul class="user-links user-websites" data-bind="websites"><li><a href="https://www.visualcv.com/long-huynh-bao" target="_blank" rel="nofollow"><i class="fa fa-fw fa-globe"></i>&nbsp;visualcv.com/long-huynh-bao</a></li></ul></ul><div class="fn user-title"><div class="user-thumb visible" data-bind="thumb"><div class="css-crop bg-cover" style="background-image:url(https://workstory.s3.amazonaws.com/users/960995/0_xy9RqXLS5Jy6EF_-wvogNu5mnqAomI_qw9oj5sJDBJAE0F8BHaoZNP5mbzpo0W8-avoMiYXmNprEjVgO2cbNi0kDiprojVlqScbJnXZSn6TijShgSPB4KHR51i_cv.jpeg);"></div></div><h1 class="full-name" data-bind="full_name"><span class="undefined needsclick" contenteditable="false" data-placeholder="Full Name">Long Huynh Bao</span></h1><h2 class="title" data-bind="headline"><span class="undefined needsclick" contenteditable="false" data-placeholder="Headline / Current Title">Senior Hybris developer</span></h2></div></article></section><section data-bind="sections" id="summary" class="text_story no-page-break"><header><h3 class="header-text empty" data-bind="label"><span class="undefined needsclick" contenteditable="false" data-placeholder="Summary">Summary</span></h3></header><article class="article-body" data-bind="content"><div id="react-tinymce-268422" class=" mce-content-body" spellcheck="true" placeholder="Description"><p><span>Used technologies: Java/J2EE, Hybris 5.4.x/5.5.x/5.7.x (Core platform, B2C accelerator, </span><span>ImpEx</span><span>), Spring Framework (Core/MVC/Integration), MySQL/HSQL </span><span>DB,</span> <span>Gradle</span><span>/Maven/Ant builds, Git (</span><a href="https://www.atlassian.com/software/bitbucket/server"><span>Stash</span></a><span>), JIRA</span><span>, Bamboo</span><span>&nbsp;</span></p>
+<p><span>&nbsp;</span></p>
+<p><span><span>I am motivated, eager to learn and have a genuine interest in software development, beside that, I have a good background with Ecommerce</span></span></p></div></article></section><section data-bind="sections" id="positions" class="dated_story"><header><h3 class="header-text empty" data-bind="label"><span class="undefined needsclick" contenteditable="false" data-placeholder="Work History">Work History</span></h3></header><article data-bind="contents"><div class="article-headings"><div class="ribbon"><a data-bind="organization_url" target="_blank" rel="nofollow" href="http://www.pycogroup.com/home"><h4 data-bind="organization"><span class="undefined needsclick" contenteditable="false" data-placeholder="organization">Pyramid Consulting VietNam</span></h4></a></div><h5 class="date-range"><span data-bind="start_date"><span class="undefined needsclick" contenteditable="false" data-placeholder="YYYY">Jan 2014</span></span><span data-bind="end_date"><span class="undefined needsclick" contenteditable="false" data-placeholder="YYYY">Present</span></span></h5></div><div class="article-body"><h4 data-bind="title"><span class="undefined needsclick" contenteditable="false" data-placeholder="job title">Java developer</span></h4><div id="react-tinymce-268423" class=" mce-content-body" spellcheck="true" placeholder="Description"><p><span></span></p>
+<p><span>Project: </span><span>Pyco</span><span> RDS</span><span>&nbsp;</span></p>
+<ul>
+<li><span><span>Achievements and responsibilities</span></span><span><span>:</span></span><span><span>&nbsp;</span></span><span>&nbsp;</span></li>
+</ul>
+<ul>
+<li><span><span>Create </span></span><span><span>addons</span></span><span><span>:&nbsp;</span></span><span>&nbsp;</span></li>
+</ul>
+<ul>
+<li><span><span>Google captcha add-on</span></span><span>&nbsp;</span></li>
+<li><span><span>Navigation add-on</span></span><span>&nbsp;</span></li>
+<li><span><span>Notify me add-on</span></span><span>&nbsp;</span></li>
+<li><span><span>Product </span></span><span><span>co</span></span><span><span>mparision</span></span><span>&nbsp;</span></li>
+</ul>
+<ul>
+<li><span><span>Using </span></span><span><span>Boostrap</span></span><span><span> for style Hybris Site </span></span><span><span>Responesive</span></span><span>&nbsp;</span></li>
+<li><span><span>Research best practice for apply new </span></span><span><span>javascript</span></span><span><span> library with Object ACC in Hybris </span></span><span><span>Javascript</span></span><span>&nbsp;</span></li>
+<li><span><span>Using LESS for more flexible when restyle</span></span><span>&nbsp;</span></li>
+<li><span><span>Apply Unit Test with all class for make sure java logic is corrected</span></span><span>&nbsp;</span></li>
+</ul>
+<ul>
+<li><span><span>Technologies:</span></span><span>&nbsp;</span></li>
+</ul>
+<ul>
+<li><span><span>H</span></span><span><span>ybris </span></span><span><span>5.7</span></span><span>&nbsp;</span></li>
+</ul>
+<p><span>&nbsp;</span><span>&nbsp;</span></p>
+<p><span><span>Project: Microsoft China Store</span></span><span>&nbsp;</span></p>
+<ul>
+<li><span><span>Achievements and responsibilities</span></span><span><span>:</span></span><span><span>&nbsp;</span></span><span>&nbsp;</span></li>
+</ul>
+<ul>
+<li><span><span>Re-designed the user experience of a public ecommerce site</span></span><span>&nbsp;</span></li>
+<li><span><span>Implement a flexible and extensive </span></span><span><span>backoffice</span></span><span><span> to manage product </span></span><span><span>catalogs</span></span><span><span>, marketing campaigns, sales funnel (with support of </span></span><span><span>Alipay</span></span><span><span> and </span></span><span><span>UnionPay</span></span><span><span> payment gateways) and User Portal</span></span><span>&nbsp;</span></li>
+<li><span><span>Integration with existing warehouse management system provided by </span></span><span><span>Baozun</span></span><span><span>, a leading warehouse management provider in Mainland China</span></span><span>&nbsp;</span></li>
+<li><span><span>Design, and produce a variety of ongoing marketing materials to support marketing campaigns</span></span><span>&nbsp;</span></li>
+<li><span><span>Provide experienced business consulting support to help define best solutions to meet business needs.</span></span><span>&nbsp;</span></li>
+<li><span><span>Provide Application level SLA Support</span></span><span>&nbsp;</span></li>
+</ul>
+<ul>
+<li><span><span>Technologies:</span></span><span>&nbsp;</span></li>
+</ul>
+<ul>
+<li><span><span>H</span></span><span><span>ybris 4.3.</span></span><span>&nbsp;</span></li>
+</ul></div></div><div class="clearfix"></div></article><article data-bind="contents"><div class="article-headings"><div class="ribbon"><a data-bind="organization_url" target="_blank" rel="nofollow" href="http://www.dtsc.vn/en/?_t_=1462608173496"><h4 data-bind="organization"><span class="undefined needsclick" contenteditable="false" data-placeholder="organization">Dong Tien Service Corporation (DTSC)</span></h4></a></div><h5 class="date-range"><span data-bind="start_date"><span class="undefined needsclick" contenteditable="false" data-placeholder="YYYY">Jun 2011</span></span><span data-bind="end_date"><span class="undefined needsclick" contenteditable="false" data-placeholder="YYYY">Dec 2013</span></span></h5></div><div class="article-body"><h4 data-bind="title"><span class="undefined needsclick" contenteditable="false" data-placeholder="job title">Java developer</span></h4><div id="react-tinymce-268424" class=" mce-content-body" spellcheck="true" placeholder="Description"><p><span>Project:&nbsp;</span><span>Human Resource Management</span><span>&nbsp;</span></p>
+<p><span>&nbsp;</span></p>
+<ul>
+<li><span><span>Achievements and responsibilities:&nbsp;</span></span><span>&nbsp;</span></li>
+</ul>
+<ul>
+<li><span><span>Learning framework of DTSC, research and written a tool for generate a category with </span></span><span><span>webservice</span></span><span><span>, </span></span><span><span>serv</span></span><span><span>let, model, entity, GTX3 UI, </span></span><span><span>security with functions: create, delete, update.</span></span><span>&nbsp;</span></li>
+<li><span><span>Using </span></span><span><span>weka</span></span><span><span>&nbsp;for classification over 1000 cases with many field to export to java code, and make sure if BA requirement change, java will not take much time.</span></span><span><span>&nbsp;</span></span><span>&nbsp;</span></li>
+<li><span><span>Written module timesheet&nbsp;</span></span><span><span>allow user can </span></span><span><span>logwork</span></span><span><span>, planning log, auto </span></span><span><span>logwork</span></span><span><span>. Manager can approval by period, flag payroll per timesheet log with over 1000 </span></span><span><span>case</span></span><span><span>s</span></span><span><span> in BA requirement</span></span><span><span>.</span></span><span>&nbsp;</span></li>
+<li><span><span>Written module&nbsp;</span></span><span><span>synthetic timesheet for </span></span><span><span>extract information payroll, overtime, leave with over 1000 cases in BA requirement</span></span><span>&nbsp;</span></li>
+</ul></div></div><div class="clearfix"></div></article></section><section data-bind="sections" id="degrees" class="dated_story no-page-break"><header><h3 class="header-text empty" data-bind="label"><span class="undefined needsclick" contenteditable="false" data-placeholder="Education">Education</span></h3></header><article data-bind="contents"><div class="article-headings"><div class="ribbon"><a data-bind="organization_url" target="_blank" rel="nofollow" href="http://www.hcmus.edu.vn/en/index.php"><h4 data-bind="organization"><span class="undefined needsclick" contenteditable="false" data-placeholder="school name">HCMC UNIVERSITY OF SCIENCES </span></h4></a></div><h5 class="date-range"><span data-bind="start_date"><span class="undefined needsclick" contenteditable="false" data-placeholder="YYYY">2007</span></span><span data-bind="end_date"><span class="undefined needsclick" contenteditable="false" data-placeholder="YYYY">2011</span></span></h5></div><div class="article-body"><h4 data-bind="title"><span class="undefined needsclick" contenteditable="false" data-placeholder="degree name">Major Computer Sciences</span></h4><div id="react-tinymce-268425" class=" mce-content-body" spellcheck="true" placeholder="Description"><p><span>The General City University was split into the University of Natural Sciences and the University of Social Sciences and Humanities in 1996, then becoming the two mutual members of the Vietnam National University in Ho Chi Minh City.</span></p></div></div><div class="clearfix"></div></article></section><section data-bind="sections" id="strengths" class="strengths"><header><h3 class="header-text" data-bind="label"><span class="undefined needsclick" contenteditable="false" data-placeholder="Skills">Skills</span></h3></header><div><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:74%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">Hybris Core Platform</span></h6><div id="react-tinymce-268426" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Advanced</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:66%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">Hybris Commerce</span></h6><div id="react-tinymce-268427" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Advanced</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:79%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">Spring Framework</span></h6><div id="react-tinymce-268428" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Advanced</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:60%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">Apache tomcat</span></h6><div id="react-tinymce-268429" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Advanced</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:88%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">Java</span></h6><div id="react-tinymce-268430" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Advanced</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:79%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">Javascript</span></h6><div id="react-tinymce-268431" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Advanced</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:85%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">Boostrap, JQuery</span></h6><div id="react-tinymce-268432" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Advanced</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:72%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">CSS, LESS, HTML</span></h6><div id="react-tinymce-268433" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Advanced</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:26%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">CQ5</span></h6><div id="react-tinymce-268434" class=" mce-content-body" spellcheck="true" placeholder="Description"><p><span>Intermediate</span></p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:48%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">SQL, MySQL, Oracle</span></h6><div id="react-tinymce-268435" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Intermediate</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:44%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">NodeJS, AngularJS</span></h6><div id="react-tinymce-268436" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Intermediate</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:14%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">OpenCV, OpenGL</span></h6><div id="react-tinymce-268437" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Beginner</p></div></div></article><article class="competency" data-bind="contents"><div class="article-headings"></div><div class="article-body competency"><div class="competency-bar"><div class="competency-level" data-bind="level" style="width:20%;"></div></div><h6 data-bind="name"><span class="undefined needsclick" contenteditable="false" data-placeholder="name">Machine Learning, Extracting data</span></h6><div id="react-tinymce-268438" class=" mce-content-body" spellcheck="true" placeholder="Description"><p>Beginner</p></div></div></article></div><div class="clearfix"></div></section><section data-bind="sections" id="text_story" class="text_story"><header><h3 class="header-text empty" data-bind="label"><span class="undefined needsclick" contenteditable="false" data-placeholder="Text Section">References</span></h3></header><article class="article-body" data-bind="content"><div id="react-tinymce-268439" class=" mce-content-body" spellcheck="true" placeholder="Description"><p style="padding-left: 30px; text-align: left;"><strong>1. Mr. Cong Tran Ngoc Minh</strong></p>
+<p style="padding-left: 60px; text-align: left;">Senior Project Manager, <strong>Pyramid Consulting VN</strong></p>
+<p style="padding-left: 60px; text-align: left;"><span>Email Address: &nbsp;</span><a href="mailto:cong.tran@vn.pyramid-consulting.com">cong.tran@vn.pyramid-consulting.com</a></p>
+<p style="padding-left: 60px; text-align: left;"></p>
+<p style="padding-left: 30px; text-align: left;"><strong>2. Mr. Lam Nguyen Tuong</strong></p>
+<p style="padding-left: 60px; text-align: left;">Experienced CEO &amp; CTO,<strong><span> Software Industry</span></strong></p>
+<p style="padding-left: 60px; text-align: left;"><a href="https://vn.linkedin.com/in/lam-nguyen-693640a">https://vn.linkedin.com/in/lam-nguyen-693640a</a></p>
+<p style="padding-left: 60px; text-align: left;"></p>
+<p style="padding-left: 30px; text-align: left;"><span style="font-weight: 400;"><strong>&nbsp;3. Mr. Tran Nguyen</strong> </span></p>
+<p style="padding-left: 60px; text-align: left;"><span style="font-weight: 400;">Deputy Director</span> <span style="font-weight: 400;">– <strong>Dong Tien Solusion Company</strong></span></p>
+<p style="padding-left: 60px; text-align: left;"><span style="font-weight: 400;"></span><span style="font-weight: 400;">Email: &nbsp;</span><span style="font-weight: 400;"><a href="mailto:trannn@dtsc.com.vn">trannn@dtsc.com.vn</a><a href="mailto:trannn@dtsc.com.vn"></a></span></p>
+<p style="padding-left: 30px; text-align: left;"><span style="font-weight: 400;"></span></p>
+<p style="padding-left: 30px; text-align: left;"><span style="font-weight: 400;"><strong>4. Mr. Nguyen Tien Thanh</strong> </span></p>
+<p style="padding-left: 60px; text-align: left;"><span style="font-weight: 400;">Project Leader</span><span style="font-weight: 400;"> – <strong>Dong Tien Solusion Company</strong></span></p>
+<p style="padding-left: 60px; text-align: left;"><span style="font-weight: 400;"></span><span style="font-weight: 400;">Email: </span><span style="font-weight: 400;"><a href="mailto:thanhnti@dtsc.com.vn">thanhnti@dtsc.com.vn</a><a href="mailto:thanhnti@dtsc.com.vn"></a></span></p>
+<p style="padding-left: 30px; text-align: left;"><span style="font-weight: 400;"></span></p>
+<p style="padding-left: 30px; text-align: left;"><span style="font-weight: 400;"><strong>5. Mr. Hoang Phi Vu</strong> </span></p>
+<p style="padding-left: 60px; text-align: left;"><span style="font-weight: 400;">Project Leader</span><span style="font-weight: 400;"> – <strong>Dong Tien Solusion Company</strong></span></p>
+<p style="padding-left: 60px; text-align: left;"><span style="font-weight: 400;"></span><span style="font-weight: 400;">Email: </span><a href="mailto:vuhp@dtsc.com.vn"><span style="font-weight: 400;">vuhp@dtsc.com.vn</span></a></p></div></article></section><div data-bind="add-section-btn"><span class="undefined needsclick" contenteditable="false" data-placeholder="add-section-btn"></span></div><template id="profile"></template><template id="dated_story"></template><template id="strengths"></template><template id="portfolio"></template><template id="text_story"></template><template id="chart"></template></div></div></div>
+
+  
+
+  <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
+  <script src="js/jquery.min.js"></script>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js");fbq("init","130994437258304");fbq("track","PageView");</script>
+<noscript>&amp;lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=130994437258304&amp;amp;amp;ev=PageView&amp;amp;amp;noscript=1"&amp;gt;</noscript>
+
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/raphael-min.js"></script>
+  <script src="js/morris.min.js"></script>
+  <script src="js/jquery.cv.js"></script>
+
+
+
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js");fbq("init","130994437258304");fbq("track","PageView");</script>
+<noscript>&lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=130994437258304&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;</noscript>
+</body></html>
